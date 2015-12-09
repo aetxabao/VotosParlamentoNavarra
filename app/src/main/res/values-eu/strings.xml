@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nafarroako Parlamentuko Bozkak</string>
+    <string name="title">Nafarroako Parlamentuko Emaitzak Herrialdeka</string>
+    <string name="load">Datuak irakurtzen</string>
+    <string name="filter">Iragazi lista herri izenaz</string>
+    <string name="search">Bilatu</string>
+    <string name="list">Aukeratu herria listatik</string>
+</resources>

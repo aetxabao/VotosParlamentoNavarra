@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pmdm.votosparlamentonavarra.MainActivity">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:text="@string/title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.6"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/Load"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/load" />
+
+        <ProgressBar
+            android:id="@+id/Progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</LinearLayout>

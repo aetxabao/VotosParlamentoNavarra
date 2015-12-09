@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Votos Parlamento Navarra</string>
+    <string name="title">Resultados Parlamento de Navarra por Municipio</string>
+    <string name="load">Leyendo datos</string>
+    <string name="filter">Filtrar lista por nombre</string>
+    <string name="search">Buscar</string>
+    <string name="list">Seleccionar municipio de la lista</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pmdm.votosparlamentonavarra.ListActivity">
+
+    <TextView
+        android:id="@+id/LblFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/filter" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/TxtFilter"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3" />
+
+        <Button
+            android:id="@+id/BtnFilter"
+            android:text="@string/search"
+            android:onClick="filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/LblList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/list" />
+
+    <ListView
+        android:id="@+id/List"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
