@@ -1,5 +1,7 @@
 package com.pmdm.votosparlamentonavarra;
 
+import android.graphics.Color;
+
 public class Ctes {
 
     public static final int RPPM1979 = R.raw.rppm1979;
@@ -37,6 +39,11 @@ public class Ctes {
     public static final String[] PARTIDOS_2015 = new String[]{
             "Geroa_Bai", "UPN", "PSN", "EH_Bildu", "UPyD", "I-E", "PP", "Podemos", "Ciudadanos",
             "LN", "Equo", "PACMA", "SAIn", "RCN-NOK"};
+
+    public static final int[] COLORES = new int[]{
+            Color.rgb(0, 63, 255), Color.rgb(255,127,0), Color.rgb(255,210,0), Color.rgb(128,0,128), Color.rgb(193,5,52),
+            Color.rgb(0,255,255), Color.rgb(0,176,0), Color.rgb(255,0,255),Color.rgb(130,192,233), Color.rgb(160,82,45),
+            Color.rgb(192,220,192), Color.rgb(147,141,210),Color.rgb(0,139,188),Color.rgb(0,255,128), Color.rgb(45,109,102)};
 
 }
 

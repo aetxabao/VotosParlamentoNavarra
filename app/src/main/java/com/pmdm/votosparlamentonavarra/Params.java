@@ -13,6 +13,7 @@ public class Params {
     public String filtro = "";
     public List<String> listado = null;
     public int code = -1;
+    public int year = -1;
 
     //singleton
     private static final Params INSTANCE = new Params();
@@ -60,4 +61,15 @@ public class Params {
         return null;
     }
 
+    public Municipio getMunicipio(int year, int code){
+        List<Municipio> list = new ArrayList<Municipio>();
+        if (year==1979) list = this.res1979;
+        if (year==2007) list = this.res2007;
+        if (year==2011) list = this.res2011;
+        if (year==2015) list = this.res2015;
+        for(Municipio m : list)
+            if (m.codigo == code)
+                return m;
+        return null;
+    }
 }

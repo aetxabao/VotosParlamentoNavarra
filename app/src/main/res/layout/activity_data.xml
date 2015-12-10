@@ -4,12 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.pmdm.votosparlamentonavarra.DataActivity">
+    tools:context="com.pmdm.votosparlamentonavarra.DataActivity"
+    android:id="@+id/LayoutData">
 
     <TextView
         android:id="@+id/LblData"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp" />
+        android:layout_margin="10dp"
+        android:singleLine="false"/>
 </LinearLayout>
 

@@ -5,7 +5,33 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.pmdm.votosparlamentonavarra.ListActivity">
-
+    <RadioGroup
+        android:id="@+id/RgAno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/Rb1979"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1979"
+            android:checked="true" />
+        <RadioButton
+            android:id="@+id/Rb2007"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2007" />
+        <RadioButton
+            android:id="@+id/Rb2011"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2011" />
+        <RadioButton
+            android:id="@+id/Rb2015"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015" />
+    </RadioGroup>
     <TextView
         android:id="@+id/LblFilter"
         android:layout_width="match_parent"
